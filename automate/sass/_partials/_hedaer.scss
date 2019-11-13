@@ -1,0 +1,14 @@
+@import "../_partials/_shared/variables";
+.card {
+  position: relative;
+  float: left;
+  margin: 16px;
+}
+.card img {
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.6);
+}
+.badge {
+  padding: 8px !important;
+  margin: 2px;
+  text-transform: capitalize;
+}

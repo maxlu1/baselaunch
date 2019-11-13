@@ -1,0 +1,36 @@
+{
+  "name": "baselaunch_automate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "develop": "gulp develop",
+    "buildpack": "webpack -p --watch",
+    "livesync": "browser-sync start --server './' --files './src' './assets'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxlu1"
+  },
+  "author": "Max Salvado",
+  "license": "ISC",
+  "homepage": "https://github.com/maxlu1",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.1.1",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglify": "^3.0.2",
+    "imagemin": "^7.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
